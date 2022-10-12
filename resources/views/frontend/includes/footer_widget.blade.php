@@ -11,10 +11,10 @@
                             <h4 class="footer_title">CONTACT</h4>
                             <div class="separator4"></div>
                             <ul>
-                                <li><a href=""><i class="fa fa-envelope"></i> info@guitarchoose.com</a></li>
-                                <li><a href=""><i class="fa fa-phone"></i> 0123 456 789 0112</a></li>
-                                <li><a href=""><i class="fa fa-map-marker"></i> Greenplatz Ben 29, Germany 60435</a></li>
-                                <li><a href=""><i class="fa fa-fax"></i> (0012) 654 356 445</a></li>
+                                <li><a href=""><i class="fa fa-envelope"></i> {{ $contact->email }}</a></li>
+                                <li><a href=""><i class="fa fa-phone"></i> {{ $contact->phone }}</a></li>
+                                <li><a href=""><i class="fa fa-map-marker"></i> {{ $contact->address }}</a></li>
+                                {{-- <li><a href=""><i class="fa fa-fax"></i> (0012) 654 356 445</a></li> --}}
                             </ul>
                         </div>
                     </div>

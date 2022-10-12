@@ -5,7 +5,7 @@
 
                 <div class="col-sm-6 col-xs-12">
                     <div class="copyright_text">
-                        <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="https://bootstrapthemes.co">Bootstrap Themes</a>2016. All Rights Reserved</p>
+                        <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="https://bootstrapthemes.co">Cooking School</a>{{ Carbon\Carbon::now()->format('Y') }}. All Rights Reserved</p>
                     </div>
                 </div>
 
